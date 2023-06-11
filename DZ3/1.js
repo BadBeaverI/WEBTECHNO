@@ -11,4 +11,5 @@
 
 const celsii = prompt("Введите температуру в Цельсиях С ");
 const faringeith = (9 / 5) * celsii + 32;
-alert (`Цельсий ${celsii}, Фаренгейт ${faringeith}`);
+
+alert (`Цельсий ${celsii}, Фаренгейт ${faringeith.toFixed(2)}`);
